@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Ranger = exports.Warrior = exports.Necromancer = exports.Mage = exports.Archetype = void 0;
+const Archetype_1 = require("./Archetype");
+exports.Archetype = Archetype_1.default;
+const Mage_1 = require("./Mage");
+exports.Mage = Mage_1.default;
+const Necromancer_1 = require("./Necromancer");
+exports.Necromancer = Necromancer_1.default;
+const Warrior_1 = require("./Warrior");
+exports.Warrior = Warrior_1.default;
+const Ranger_1 = require("./Ranger");
+exports.Ranger = Ranger_1.default;
+exports.default = Archetype_1.default;
